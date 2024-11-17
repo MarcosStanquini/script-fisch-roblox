@@ -12,7 +12,7 @@ Antes de rodar o script, você precisa instalar as dependências necessárias. S
 Baixe o código ou clone este repositório no seu computador.
 
 ```bash
-git clone <URL_do_repositorio>
+git clone https://github.com/MarcosStanquini/script-fisch-roblox.git
 ```
 
 ### Passo 2: Criar e Ativar o Ambiente Virtual
