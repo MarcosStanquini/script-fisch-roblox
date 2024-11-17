@@ -39,6 +39,14 @@ Após ativar o ambiente virtual, instale as dependências necessárias executand
 pip install -r requirements.txt
 ```
 
+### Passo 3: Instalar o Mouse Jiggler
+
+Após instalar as dependências, instale o Mouse Jiggler e o inicialize com essas configurações:
+
+![image](https://github.com/user-attachments/assets/60f15124-de49-459d-8019-0848888e631b)
+
+
+
 ### Passo 4: Rodar o Script
 
 Com o ambiente virtual ativo e as dependências instaladas, você pode executar o script com o comando abaixo:
