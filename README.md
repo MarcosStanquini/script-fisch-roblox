@@ -1,5 +1,5 @@
 
-# Agitar Script para Jogo
+# Script para FISCH roblox.
 
 Este projeto automatiza o processo de clicar no botão "Agitar" de um jogo usando Python. O script usa **PyAutoGUI** para controle do mouse e **OpenCV** para reconhecimento de imagem, identificando o botão "Agitar" na tela e clicando nele.
 
