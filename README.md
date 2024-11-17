@@ -22,7 +22,7 @@ Crie um ambiente virtual para isolar as dependências do seu projeto.
 #### No Windows:
 ```bash
 python -m venv venv
-venv\Scriptsctivate
+venv\Scripts/activate
 ```
 
 #### No Linux ou MacOS:
@@ -47,30 +47,15 @@ Com o ambiente virtual ativo e as dependências instaladas, você pode executar 
 python agitar_script.py
 ```
 
-### Dependências
-
-As dependências do projeto estão listadas no arquivo `requirements.txt`. Você pode ver o conteúdo do arquivo aqui:
-
-```txt
-pyautogui==0.9.53
-opencv-python==4.7.0.72
-numpy==1.23.5
-```
 
 ### Observações
 
 - O script utiliza um template de imagem (`template_agitar.png`) que deve ser criado inicialmente ao rodar o script pela primeira vez. Ele capturará a área ao redor do botão "Agitar".
-- O script faz a movimentação do mouse de forma errática para tentar enganar o jogo, como se fosse um movimento mais natural.
 
 ### Problemas Conhecidos
 
 - Certifique-se de que o jogo esteja em uma janela visível para o script identificar corretamente o botão "Agitar".
-- Em alguns jogos, pode ser necessário ajustar os parâmetros de confiança ou a amplitude do movimento errático.
 
 ## Contribuição
 
 Se você encontrar bugs ou tiver sugestões de melhorias, fique à vontade para abrir uma **issue** ou **pull request**.
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
