@@ -31,6 +31,8 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+
+
 ### Passo 3: Instalar as Dependências
 
 Após ativar o ambiente virtual, instale as dependências necessárias executando o seguinte comando:
@@ -39,7 +41,7 @@ Após ativar o ambiente virtual, instale as dependências necessárias executand
 pip install -r requirements.txt
 ```
 
-### Passo 3: Instalar o Mouse Jiggler
+### Passo 4: Instalar o Mouse Jiggler
 
 Após instalar as dependências, instale o Mouse Jiggler e o inicialize com essas configurações:
 
@@ -47,7 +49,7 @@ Após instalar as dependências, instale o Mouse Jiggler e o inicialize com essa
 
 
 
-### Passo 4: Rodar o Script
+### Passo 5: Rodar o Script
 
 Com o ambiente virtual ativo e as dependências instaladas, você pode executar o script com o comando abaixo:
 
