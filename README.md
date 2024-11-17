@@ -22,7 +22,7 @@ Crie um ambiente virtual para isolar as dependências do seu projeto.
 #### No Windows:
 ```bash
 python -m venv venv
-venv\Scripts/activate
+venv/Scripts/activate
 ```
 
 #### No Linux ou MacOS:
